@@ -10,3 +10,15 @@ body{
 .section{
 
 }
+
+img{
+    width:100%;
+}
+
+p{
+    font-size: larger;
+}
+
+h1{
+    font-weight : 700;
+}
