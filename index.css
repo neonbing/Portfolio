@@ -1,7 +1,35 @@
-body{
-    font-family: 'Ubuntu', sans-serif;
-    background-color: #EBEFF2;
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('res/font/Ubuntu-Regular.ttf') format('truetype');
+    font-weight: 500;
+    /*font-style: normal;*/
 }
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('res/font/Ubuntu-Bold.ttf') format('truetype');
+    font-weight: 700;
+    /*font-style: bold;*/
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('res/font/Ubuntu-Light.ttf') format('truetype');
+    font-weight: 300;
+    /*font-style: ;*/
+}
+
+
+body{
+    font-family: 'Ubuntu';
+    font-weight:300;
+    background-color: white;
+    color:dimgray;
+    font-size:large;
+
+}
+
 
 #banner{
     width:100vw;
@@ -16,9 +44,24 @@ img{
 }
 
 p{
-    font-size: larger;
+    font-weight:500;
+    font-size: large;
 }
 
-h1{
-    font-weight : 700;
+h3{
+    text-underline: yellow;
+    line-height: 1.4;
+}
+
+.highlight{
+    color:dodgerblue;
+}
+
+.strong{
+    font-weight:500;
+    background-color: yellow;
+}
+
+b{
+    color:#D26EA9;
 }

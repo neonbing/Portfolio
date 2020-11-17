@@ -7,87 +7,154 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu" rel="stylesheet">
     <title>Ke Wang - Dronected</title>
 </head>
 <body>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
     <nav class="navbar sticky-top navbar-light bg-light">
         <a class="navbar-brand" href="#">Ke Wang</a>
         <a class="nav-item active"> About </a>
     </nav>
-    <img id="banner" src="res/Desktop%20-%205.jpg">
-    <div class="container">
-        <div class="my-5">
-            <img src="res/logo.png">
-            <p>Dronected is a cellular-connected drone solution for search and rescue teams. The drone equipped with thermal camera and microphone and it works with an observation website for video-streaming and ML human detection.</p>
-            <p class="hashtag"> #User Research #Product Design #Drone</p>
-            <p> <b>Time: </b> June 2020 - Present</p>
-            <p> <b>Role: </b> <br>Lead the primary user research and user evaluation, translate insights into actionable design solutions; <br> In charge of UX design, designed the website and mobile interface and developed the front-end</p>
-            <p> <b>Team: </b> <br>Isaac Boger: Electronic Engineer <br> Wenbo Zhong: Software Engineer <br> Justin Ho: Mechanical Engineer <br> ChunAn Ku: Business Manager and Software Engineer</p>
-            <p> <b>Sponsor: </b> T-Mobile</p>
-        </div>
-        <div class="my-5">
-            <h2>Overview</h2>
-            <br>
-            <h3 class="my-4">Problem</h3>
-            <p>Drones are an increasingly vital tool for search and rescue, but they still have serious limitations. They are error prone and time consuming manual video analysis, limitation by terrain blocking signals and extremely high cost to upgrade.
-            <h3 class="my-4">Solution</h3>
-            <p>Our project seeks to allow a remote cooperative workflow and crowdsourced upgrades for existing search and rescue drones using the high-bandwidth and high coverage of emerging 5G networks. The solution includes a website allows more than more eyes to monitor the drone video feed without location limitation and reduce on-site pilot’s cognitive load along with cloud AI algorithm and an add-on module that is compatible with different drone models</p>
-            <div class="row">
-            <div class="col"><img src="res/software.jpg"></div>
-            <div class="col"><img src="res/hardware.jpg"></div>
-            </div>
 
-            <h3 class="my-4">Value proposition</h3>
-            <p>Two sets of eyes are better than one: cooperative workflows help find people faster and expand the number of people who can help on a search. An open hardware ecosystem allows you to add more functionality to existing drones with the same budget.</p>
-            <h3 class="my-4">Outcome</h3>
-            <p>Our prototype and use case will be used in T-Mobile Tech Experience Center as a part of the 5G showcase.</p>
+    <img id="banner" src="res/Desktop%20-%205.jpg">
+
+    <div class="container mx-20">
+        <div class="my-5">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+            <p>Dronected is a cellular-connected drone solution for search and rescue teams. The drone equipped with thermal camera and microphone and it works with an observation website for video-streaming and ML human detection.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="row">
+                        <div class="col-2"><p><b> Time: </b></p></div>
+                        <div class="col"><p>June 2020 - Present</p></div>
+                        <div class="w-100"></div>
+                        <div class="col-2"><p><b>Role: </b></p></div>
+                        <div class="col"><p>Lead the primary user research and user evaluation, translate insights into actionable design solutions; <br> In charge of UX design, designed the website and mobile interface and developed the front-end</p></div>
+                        <div class="w-100"></div>
+                        <div class="col-2"><p><b>Team: </b></p></div>
+                        <div class="col"><p>Isaac Boger: Electronic Engineer <br> Wenbo Zhong: Software Engineer <br> Justin Ho: Mechanical Engineer <br> ChunAn Ku: Business Manager and Software Engineer</p></div>
+                        <div class="w-100"></div>
+                        <div class="col-2"><p><b>Sponsor: </b></p></div>
+                        <div class="col"><img src="res/T-Mobile_New_Logo_Primary_RGB_M-on-W%20(1).jpg" style="width:10%"></div>
+                        <div class="w-100"></div>
+                    </div>
+                </div>
+            </div>
+            <!--<p class="hashtag"> #User Research #Product Design #Drone</p>-->
+        </div>
+
+        <div class="my-5">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <h2 style="font-weight: 700;">Overview</h2>
+                </div>
+                <div class="col-md-8 offset-md-2">
+                    <h3 class="my-4">Problem</h3>
+                </div>
+                <div class="col-md-8 offset-md-2">
+                <p>Drones are an increasingly vital tool for search and rescue, but they still have serious limitations. They are error prone and time consuming manual video analysis, limitation by terrain blocking signals and extremely high cost to upgrade.</p>
+                </div>
+                <div class="col-md-8 offset-md-2">
+                    <h3 class="my-4">Solution</h3>
+                </div>
+                <div class="col-md-8 offset-md-2">
+                    <p>Our project seeks to allow a remote cooperative workflow and crowdsourced upgrades for existing search and rescue drones using the high-bandwidth and high coverage of emerging 5G networks. <br>The solution includes a website allows more than more eyes to monitor the drone video feed without location limitation and reduce on-site pilot’s cognitive load along with cloud AI algorithm and an add-on module that is compatible with different drone models</p>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col"><img src="res/software.jpg" class="rounded"></div>
+            <div class="col"><img src="res/hardware.jpg" class="rounded"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <h3 class="my-4">Value proposition</h3>
+                </div>
+                <div class="col-md-8 offset-md-2">
+                    <p >Two sets of eyes are better than one: cooperative workflows help find people faster and expand the number of people who can help on a search. An open hardware ecosystem allows you to add more functionality to existing drones with the same budget.</p>
+                </div>
+                <div class="col-md-8 offset-md-2">
+                    <h3 class="my-4">Outcome</h3>
+                </div>
+                <div class="col-md-8 offset-md-2">
+                    <p>Our prototype and use case will be used in T-Mobile Tech Experience Center as a part of the 5G showcase.</p>
+                </div>
 
         </div>
         <div class="my-2">
-            <h2>Process</h2>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <h2 style="font-weight: 700;">Process</h2>
+                </div>
+            </div>
             <img src="res/process.png" class="img-fluid">
         </div>
         <div class="my-4">
-            <h2>Research</h2>
-            <h3 class="my-4">How do SAR teams use drones and what’re their limitations?</h3>
-            <p>In the secondary research, we found that drones have been largely applied in SAR missions such as delivering essential items to subjects, finding people, giving guidance for ground teams, etc.
-                <br>However, we missed the information of drones’ limitations in SAR missions​, SAR teams’ needs and scenarios where drones are useful or not useful.
-                <br>To fill the information gap, we conducted interviews with 11 SAR team members.</p>
-            <img src="res/AD.png">
-            <p>After the affinity diagram analysis, several points pop out so that we notice them. They are:
-                <ul>Spotting a person on a tiny screen mounted on the controller is very difficult, not to mention controlling the drone at the same time.</ul>
-                <ul>Drones with only RGB cameras are not useful in night or dense forests.</ul>
-                <ul>Radio communication with drones can be choppy with the rough terrain present in many search and rescue scenarios.</ul>
-            </p>
-            <h3 class="my-4">So the jobs to be done here is to increase the effectiveness of spotting subjects through drone videos and allow the drone to fly without traditional radio limitation.</h3>
-            <p>What kind of products and technology could address this?  Hold on a second, before jumping into ideation, let’s set design criteria first to sync with each other.</p>
-            <img src="res/requirement.png">
-            <p>
-            <ul>[Desirability] Reduce cognitive load on the pilots</ul>
-            <ul>[Desirability] Increase the search effectiveness</ul>
-            <ul>[Viability] Affordable for volunteer teams</ul>
-            <ul>[Desirability] Not exclude any possibilities of saving a life</ul>
-            <ul>[Desirability] Easy to set up on existing drones</ul>
-            <ul>[Viability] Apply to the majority of structures of SAR team</ul>
-            <ul>[Desirability] Will not decrease the flight time more than 30%</ul>
-            <ul>[Feasibility] Able to develop in 3 months</ul>
-            </p>
-            <h3 class="my-4">Under short time constraints and sponsor’s expectation, we need to prioritize our features.</h3>
-            <p>T-Mobile wants a use case to showcase their 5G capability and our project is under assumption that 5G connection is stable and fast enough.</p>
-            <img src="res/prioritize.png">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <h2 style="font-weight: 700;">Research</h2>
+                </div>
+                <div class="col-md-8 offset-md-2">
+                    <h3 class="my-4"><b>How do SAR teams use drones and what’re the limitations?</b></h3>
+                </div>
+                <div class="col-md-8 offset-md-2">
+                    <p>In the secondary research, we found that drones have been largely applied in SAR missions such as delivering essential items to subjects, finding people, giving guidance for ground teams, etc.
+                        <br>However, we missed the information of drones’ limitations in SAR missions​, SAR teams’ needs and scenarios where drones are useful or not useful.
+                        <br>To fill the information gap, we conducted interviews with 11 SAR team members.</p>
+                </div>
+                <!--<div class="col-md-8 offset-md-2" style="align-content: center">-->
+                    <!--<img src="res/AD.png" style="width:80%; height: auto;">-->
+                <!--</div>-->
+                <div class="col-md-8 offset-md-2">
+                    <p>After the affinity diagram analysis, several points pop out so that we notice them. They are:</p>
+                    <li><p>Spotting a person on a tiny screen mounted on the controller is very difficult, not to mention controlling the drone at the same time.</p></li>
+                    <li><p>Drones with only RGB cameras are not useful in night or dense forests.</p></li>
+                    <li><p>Radio communication with drones can be choppy with the rough terrain present in many search and rescue scenarios.</p></li>
+                </div>
+                <div class="col-md-8 offset-md-2">
+                    <h3 class="my-4"><b>So the jobs to be done here is to increase the effectiveness of spotting subjects through drone videos and allow the drone to fly without traditional radio limitation.</b></h3>
+                </div>
+                <div class="col-md-8 offset-md-2">
+                    <p>What kind of products and technology could address this?  Hold on a second, before jumping into ideation, let’s set design criteria first to sync with each other.</p>
+                </div>
+                <!--<div class="col-md-8 offset-md-2">-->
+                    <!--<img src="res/requirement.png" style="width:80%; height: auto;">-->
+                <!--</div>-->
+                <div class="col-md-8 offset-md-2">
+                    <ul><p>[Desirability] Reduce cognitive load on the pilots</ul>
+                    <ul><p>[Desirability] Increase the search effectiveness</ul>
+                    <ul><p>[Viability] Affordable for volunteer teams</ul>
+                    <ul><p>[Desirability] Not exclude any possibilities of saving a life</ul>
+                    <ul><p>[Desirability] Easy to set up on existing drones</ul>
+                    <ul><p>[Viability] Apply to the majority of structures of SAR team</ul>
+                    <ul><p>[Desirability] Will not decrease the flight time more than 30%</ul>
+                    <ul><p>[Feasibility] Able to develop in 3 months</ul>
+                    <h3 class="my-4"><b>Under short time constraints and sponsor’s expectation, we need to prioritize our features.</b></h3>
+                    <p>T-Mobile wants a use case to showcase their 5G capability and our project is under assumption that 5G connection is stable and fast enough.</p>
+                </div>
+            </div>
+            <img src="res/prioritize.png" style="width:100%; height:auto;">
         </div>
         <div class="my-2">
-            <h2>Prototype</h2>
-            <p>We chose these features to form an integrated product, including an add-on module attached to the drone and cloud powered website enabling real-time video streaming, remote collaboration and machine learning assistance.</p>
-            <h3 class="my-4">Information Architecture</h3>
-            <img src="res/IA.png">
-            <h3 class="my-4">However, this remote pilot and on-site pilot collaboration methods is novice, will people accept it and how will they engage with the system?</h3>
-            <p>So we used usability testing with 6 non-SAR team participants who act as remote pilots to work with the on-site pilot to find a person in the field.</p>
-            <h3 class="my-4">Evaluation 1</h3>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                <h2 style="font-weight: 700;">Prototype</h2>
+                <p>We chose these features to form an integrated product, including an add-on module attached to the drone and cloud powered website enabling real-time video streaming, remote collaboration and machine learning assistance.</p>
+                <h3 class="my-4">Information Architecture</h3>
+                </div>
+            </div>
+            <img src="res/IA.jpg">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                <h3 class="my-4"><b>However, this remote pilot and on-site pilot collaboration methods is novice, will people accept it and how will they engage with the system?</b></h3>
+                <p>So we used usability testing with 6 non-SAR team participants who act as remote pilots to work with the on-site pilot to find a person in the field.</p>
+                <h3 class="my-4">Evaluation 1</h3>
+                </div>
+            </div>
             <div class="row">
                 <div class="col"><img src="res/remote-pic.JPG"></div>
                 <div class="col"><img src="res/remote-screen.png"></div>
@@ -113,7 +180,7 @@
             </p>
         </div>
         <div class="my-2">
-            <h2>Interaction 2</h2>
+            <h2 style="font-weight: 700;">Interaction 2</h2>
             <p>In iteration 2, we add a call function on the website, responsible web design to suit all sizes of devices and add more feedback for actions. In hardware, we upgraded both RGB and thermal camera and an adjustable gimbal. Right now, we are confident enough to let pilots other than our teammates control the drone.</p>
             <h3>The next question is, does the drone system expand SAR teams’ abilities and does remote co-pilot mode reduce the cognitive load of the pilots?</h3>
             <p>These questions are the key to our solution’s value proposition. To answer that, the only way is to test with SAR teams.</p>
@@ -144,11 +211,11 @@
             <img src="res/Mute.jpg">
         </div>
         <div class="my-2">
-            <h2>To be continued</h2>
+            <h2 style="font-weight: 700;">To be continued</h2>
             <p>The last step is to let our sponsors to try it out and develop all the design. Stay tuned to our final presentation and product!</p>
         </div>
         <div class="my-2">
-            <h2>Reflection</h2>
+            <h2 style="font-weight: 700;">Reflection</h2>
             <p>1. Always over prepare for the field testing, including battery, backup hardware and cellular data. A scheduled user testing session costs a lot of time and budget.​
                 ​
                 2. Involving engineers in the design process will help the team be on the same page and bring their perspectives. I invited engineers to participate in interviews, discuss evaluation plans, observe evaluations and analyze research results. They can get the striking and fresh information directly from users and feel the ownership of the research results. I don’t need to spend more effort in convincing them to adopt my ideas.
